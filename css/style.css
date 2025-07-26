@@ -1,0 +1,20 @@
+:root {
+    --main-color:rgb(209,223,236);
+    --secondary-color:midnightblue;
+    --btn-color:rgb(28,128,238);
+    --light:white;
+    --dark:black;    
+    --header-font:"Libre Caslon Text", serif;
+    --main-font:sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: var(--main-font);
+}
