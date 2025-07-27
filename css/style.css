@@ -6,12 +6,14 @@
     --dark:black;    
     --header-font:"Libre Caslon Text", serif;
     --main-font:sans-serif;
+    --main-gradient:linear-gradient(to bottom , midnightblue 25% , gray 75%);
+    --gray:gray;
 }
 
 * {
     box-sizing: border-box;
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
 }
 
 body {
