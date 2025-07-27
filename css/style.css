@@ -6,7 +6,7 @@
     --dark:black;    
     --header-font:"Libre Caslon Text", serif;
     --main-font:sans-serif;
-    --main-gradient:linear-gradient(to bottom , midnightblue 25% , gray 75%);
+    --main-gradient:
     --gray:gray;
 }
 
@@ -17,6 +17,8 @@
 }
 
 body {
-    background-color: var(--main-color);
+    background-image: linear-gradient(to bottom  , midnightblue 25% , gray 75%);
+    background-repeat: no-repeat;  
     font-family: var(--main-font);
+    min-height: 100vh;
 }
