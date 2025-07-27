@@ -6,8 +6,9 @@
     --dark:black;    
     --header-font:"Libre Caslon Text", serif;
     --main-font:sans-serif;
-    --main-gradient:
+    --link-colors:rgb(90, 90, 136);
     --gray:gray;
+    --font-sm:.8rem;
 }
 
 * {
@@ -21,4 +22,30 @@ body {
     background-repeat: no-repeat;  
     font-family: var(--main-font);
     min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+/* glopal utilities */
+.mt-100 {
+    margin-top:100px ;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.letter-space-wide {
+    letter-spacing:5px 
+}
+
+
+/* navBar styles */
+nav .links a {  
+    color: var(--link-colors);
+    font-size: var(--font-sm);
+    position: sticky;
+    top:0;    
 }
